@@ -1,0 +1,22 @@
+/*bouton de la bannière*/
+.bouton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    width: 500px;
+    height: 70px;
+    border: solid 15px #00ffff;
+    border-radius: 20px;
+    background-color: #E4DCD1;
+    color: #85817D;
+}
+
+/*bannière*/
+.bannière {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #00ffff;
+
+}
