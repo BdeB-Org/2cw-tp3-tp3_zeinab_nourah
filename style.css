@@ -20,3 +20,31 @@
     background-color: #00ffff;
 
 }
+
+/* Styles pour la pahe haut */
+.boite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* espace vide en haut */
+    margin: 0;
+}
+
+
+/* Styles pour les images à l'intérieur de la boîte */
+.boite img {
+    margin: 50px;
+    /*espace entre les images */
+    width: 300px;
+    /* taille de chaque image */
+    height: auto;
+}
+
+
+
+/* Centrer horizontalement */
+.titre-container {
+    text-align: center;
+
+}
