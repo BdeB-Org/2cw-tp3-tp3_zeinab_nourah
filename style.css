@@ -20,3 +20,20 @@
     background-color: #00ffff;
 
 }
+
+body{
+    background-color: #b3ffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.item {
+    margin: 0 10px;
+}
+.item img {
+    width: 400px;
+    height: 400px;
+}
