@@ -32,11 +32,6 @@ body {
 }
 
 
-
-
-
-
-
 /* Centrer verticalement et horizontalement */
 body {
     display: flex;
@@ -72,7 +67,45 @@ figure {
 
 figure img {
     width: 400px; /* Augmenter la largeur de chaque image */
-    height: auto; /* Hauteur automatique pour conserver les proportions */
+    height: auto; /* Hauteur */
 }
+
+
+
+/* Styles pour la bannière */
+.banniere {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00ffff;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styles pour les boutons dans la bannière */
+.bouton {
+    margin: 40px;
+}
+
+/* Centrer la baniere */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+/* Centrer horizontalement le titre */
+.titre-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+
+
 
 
