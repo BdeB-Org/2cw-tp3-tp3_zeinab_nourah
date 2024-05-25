@@ -1,0 +1,39 @@
+/*bouton de la bannière*/
+.bouton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    width: 500px;
+    height: 70px;
+    border: solid 15px #00ffff;
+    border-radius: 20px;
+    background-color: #E4DCD1;
+    color: #c8c5c1;
+}
+
+/*bannière*/
+.bannière {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #00ffff;
+
+}
+
+body{
+    background-color: #b3ffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.item {
+    margin: 0 10px;
+}
+.item img {
+    width: 400px;
+    height: 400px;
+}
