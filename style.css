@@ -21,7 +21,7 @@
 
 }
 
-body{
+body {
     background-color: #b3ffff;
 }
 
@@ -30,10 +30,33 @@ body{
     justify-content: space-between;
     text-align: center;
 }
+
 .item {
     margin: 0 10px;
 }
+
 .item img {
     width: 400px;
     height: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #2c3e50;
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #2c3e50;
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    font-family: 'Century Gothic';
+    text-align: center;
 }
