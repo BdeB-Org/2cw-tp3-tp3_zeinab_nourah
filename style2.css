@@ -21,7 +21,7 @@
 
 }
 
-body{
+body {
     background-color: #b3ffff;
 }
 
@@ -30,10 +30,49 @@ body{
     justify-content: space-between;
     text-align: center;
 }
-.item {
-    margin: 0 10px;
+
+
+
+
+
+
+
+/* Centrer verticalement et horizontalement */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
 }
-.item img {
-    width: 400px;
-    height: 400px;
+
+/* Centrer le titre */
+.titre-container {
+    position: absolute;
+    top: 10%;
+  
 }
+
+
+/* Styles pour la boîte d'images */
+.boite {
+    display: flex;
+  
+    gap: 40px;
+    margin-top: 10%;
+}
+
+/* Styles pour chaque image */
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figure img {
+    width: 400px; /* Augmenter la largeur de chaque image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+
