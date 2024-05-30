@@ -21,6 +21,8 @@
 
 }
 
+
+
 body {
     background-color: #b3ffff;
 }
@@ -47,14 +49,14 @@ body {
 .titre-container {
     position: absolute;
     top: 10%;
-  
+
 }
 
 
 /* Styles pour la boîte d'images */
 .boite {
     display: flex;
-  
+
     gap: 40px;
     margin-top: 10%;
 }
@@ -66,8 +68,10 @@ figure {
 }
 
 figure img {
-    width: 400px; /* Augmenter la largeur de chaque image */
-    height: auto; /* Hauteur */
+    width: 400px;
+    /* Augmenter la largeur de chaque image */
+    height: auto;
+    /* Hauteur */
 }
 
 
@@ -80,7 +84,7 @@ figure img {
     background-color: #00ffff;
     width: 100%;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Styles pour les boutons dans la bannière */
@@ -102,10 +106,3 @@ body {
     width: 100%;
     margin-top: 50px;
 }
-
-
-
-
-
-
-

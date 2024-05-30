@@ -1,10 +1,10 @@
 function afficher() {
-    let description = "chandail rouge de chez forever 22"; 
+    let description = "chandail rouge de chez forever 22";
     document.getElementById("nvDesc").textContent = description;
 }
 // bouton.js
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Récupérer les données des hauts depuis l'API REST
     fetch('/api/haut')
         .then(response => response.json())
