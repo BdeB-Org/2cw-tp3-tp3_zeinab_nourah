@@ -1,4 +1,4 @@
-/*bouton de la bannière*/
+/* General styles for buttons in the banner */
 .bouton {
     display: flex;
     justify-content: center;
@@ -13,66 +13,15 @@
     color: #c8c5c1;
 }
 
-/*bannière*/
-.bannière {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #00ffff;
-
+/* Specific styles for the logo button to remove the rectangle */
+.bouton.logo {
+    border: none;
+    width: auto;
+    height: auto;
+    background-color: transparent;
 }
 
-body {
-    background-color: #b3ffff;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-
-/* Centrer verticalement et horizontalement */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    position: relative;
-    text-align: center;
-}
-
-/* Centrer le titre */
-.titre-container {
-    position: absolute;
-    top: 10%;
-  
-}
-
-
-/* Styles pour la boîte d'images */
-.boite {
-    display: flex;
-  
-    gap: 40px;
-    margin-top: 10%;
-}
-
-/* Styles pour chaque image */
-figure {
-    text-align: center;
-    margin: 0;
-}
-
-figure img {
-    width: 400px; /* Augmenter la largeur de chaque image */
-    height: auto; /* Hauteur */
-}
-
-
-
-/* Styles pour la bannière */
+/* Style for the banner */
 .banniere {
     display: flex;
     justify-content: flex-start;
@@ -80,16 +29,12 @@ figure img {
     background-color: #00ffff;
     width: 100%;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles pour les boutons dans la bannière */
-.bouton {
-    margin: 40px;
-}
-
-/* Centrer la baniere */
+/* General body styling */
 body {
+    background-color: #b3ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,15 +42,74 @@ body {
     text-align: center;
 }
 
-/* Centrer horizontalement le titre */
+/* Title container styling */
 .titre-container {
     width: 100%;
-    margin-top: 50px;
+    margin: 20px 0 10px 0; /* Adjusted margin to reduce space */
 }
 
+/* Container for the main content */
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px; /* Reduced margin-top */
+}
 
+/* Styling for image boxes */
+.boite {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px; /* Reduced margin-top */
+}
 
+/* Styling for each figure element */
+figure {
+    text-align: center;
+    margin: 0;
+}
 
+/* Styling for images inside figure elements */
+figure img {
+    width: 400px;
+    height: auto;
+}
 
+/* Specific styles for item container */
+.item {
+    margin: 0 10px;
+}
 
+.item img {
+    width: 400px;
+    height: 400px;
+}
 
+/* Heading styles */
+h1 {
+    font-size: 40px;
+    color: #2c3e50;
+    font-family: 'Century Gothic';
+}
+
+h2, h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    font-family: 'Century Gothic';
+}
+
+/* Button styles */
+.boutton_payement {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boutton_payement:hover {
+    background-color: #218838;
+}
