@@ -53,13 +53,12 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top: 10px; /* Reduced margin-top */
 }
 
 /* Styling for image boxes */
 .boite {
     display: flex;
-    gap: 40px;
+    gap: 200px; /* Increased gap for more space between images */
     margin-top: 10px; /* Reduced margin-top */
 }
 
@@ -71,18 +70,15 @@ figure {
 
 /* Styling for images inside figure elements */
 figure img {
-    width: 400px;
-    height: auto;
+    width: 300px; /* Adjusted width for example */
+    height: 500px; /* Adjusted height for example */
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 /* Specific styles for item container */
 .item {
     margin: 0 10px;
-}
-
-.item img {
-    width: 400px;
-    height: 400px;
 }
 
 /* Heading styles */
