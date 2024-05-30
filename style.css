@@ -65,7 +65,7 @@ h3 {
 
 
 
-.buy-button {
+.boutton_payement {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #28a745;
@@ -75,6 +75,6 @@ h3 {
     cursor: pointer;
     margin-top: 10px;
 }
-.buy-button:hover {
+.boutton_payement:hover {
     background-color: #218838;
 }
