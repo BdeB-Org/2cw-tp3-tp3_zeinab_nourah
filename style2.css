@@ -1,0 +1,111 @@
+/*bouton de la bannière*/
+.bouton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+    width: 500px;
+    height: 70px;
+    border: solid 15px #00ffff;
+    border-radius: 20px;
+    background-color: #E4DCD1;
+    color: #c8c5c1;
+}
+
+/*bannière*/
+.bannière {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #00ffff;
+
+}
+
+body {
+    background-color: #b3ffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* Centrer verticalement et horizontalement */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+/* Centrer le titre */
+.titre-container {
+    position: absolute;
+    top: 10%;
+  
+}
+
+
+/* Styles pour la boîte d'images */
+.boite {
+    display: flex;
+  
+    gap: 40px;
+    margin-top: 10%;
+}
+
+/* Styles pour chaque image */
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figure img {
+    width: 400px; /* Augmenter la largeur de chaque image */
+    height: auto; /* Hauteur */
+}
+
+
+
+/* Styles pour la bannière */
+.banniere {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00ffff;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styles pour les boutons dans la bannière */
+.bouton {
+    margin: 40px;
+}
+
+/* Centrer la baniere */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+/* Centrer horizontalement le titre */
+.titre-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
