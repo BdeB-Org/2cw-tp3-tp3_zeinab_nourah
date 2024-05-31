@@ -1,3 +1,4 @@
+// méthode pour afficher
 function afficher() {
     let description = "Chandail rouge de chez Forever 22";
     document.getElementById("nvDesc").textContent = description;
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error('Erreur lors de la récupération des données des hauts:', error));
 });
 
-
+//méthode pour payer
 function payer() {
 
     const payementUrl = 'https://buy.stripe.com/test_14kaFs9YNgBWe7S001';

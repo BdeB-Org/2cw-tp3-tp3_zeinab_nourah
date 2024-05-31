@@ -21,10 +21,12 @@
 
 }
 
+/*Couleur de fond*/
 body {
     background-color: #b3ffff;
 }
 
+/*Ajustement des espaces */
 .container {
     display: flex;
     justify-content: space-between;
@@ -32,15 +34,17 @@ body {
     margin-top: 50px;
 }
 
-.item {
+.categorie {
     margin: 0 10px;
 }
 
-.item img {
+/*taille des images*/
+.categorie img {
     width: 400px;
     height: 400px;
 }
 
+/*Style des titres*/
 h1 {
     font-size: 40px;
     color: #2c3e50;
@@ -48,6 +52,7 @@ h1 {
     text-align: center;
 }
 
+/*Style des sous-titres*/
 h2 {
     font-size: 20px;
     color: #2c3e50;
@@ -55,6 +60,7 @@ h2 {
     text-align: center;
 }
 
+/*Style du texte*/
 h3 {
     font-size: 20px;
     color: #2c3e50;
@@ -62,10 +68,8 @@ h3 {
     text-align: center;
 }
 
-
-
-
-.boutton_payement {
+/*Style pour le bouton de paiement*/
+.bouton_paiement {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #28a745;
@@ -75,6 +79,6 @@ h3 {
     cursor: pointer;
     margin-top: 10px;
 }
-.boutton_payement:hover {
+.bouton_paiement:hover {
     background-color: #218838;
 }
