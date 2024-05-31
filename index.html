@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,57 @@
     <link rel="stylesheet" href="./style.css" type="text/css">
     <script src="zeinab.js" defer></script>
 </head>
+
 <body>
+
     <!-- Début de la bannière -->
     <div class="bannière">
-        <div class="bouton">
-            <img src="Images/logo.jpeg" alt="logo de la marque" title="logo" height="95px" width="90px" />
-        </div>
+        <img src="Images/logo.jpeg" alt="logo de la marque" title="logo" height="95px" width="90px" />
         <div class="bouton"> <a href="./index.html">Accueil</a></div>
         <div class="bouton"><a href="./haut.html">Haut</a></div>
         <div class="bouton"> <a href="./bas.html">Bas</a></div>
         <div class="bouton"><a href="./souliers.html">Souliers</a></div>
     </div>
     <!-- Fin de la bannière -->
- 
+
     <!-- Titre et sous-titre -->
     <h1>Bienvenue dans notre boutique de vêtements!</h1>
     <h2>Choisissez la catégorie d'articles que vous souhaitez consulter!</h2>
- 
+
     <!-- Catégories de vêtements -->
     <div class="container">
-        <div class="item">
-            <h3><p>Hauts</p></h3>
+        <div class="categorie">
+            <h3>
+                <p>Hauts</p>
+            </h3>
             <a href="haut.html"><img src="images/haut1.jpg" alt="Haut Image" style="border-radius: 5px;"></a>
         </div>
-        <div class="item">
-            <h3><p>Bas</p></h3>
+        <div class="categorie">
+            <h3>
+                <p>Bas</p>
+            </h3>
             <a href="bas.html"><img src="images/bas1.jpg" alt="Bas Image" style="border-radius: 5px;"></a>
         </div>
-        <div class="item">
-            <h3><p>Souliers</p></h3>
-            <a href="souliers.html"><img src="images/souliers1.jpg" alt="Souliers Image" style="border-radius: 5px;"></a>
+        <div class="categorie">
+            <h3>
+                <p>Souliers</p>
+            </h3>
+            <a href="souliers.html"><img src="images/souliers1.jpg" alt="Souliers Image"
+                    style="border-radius: 5px;"></a>
         </div>
     </div>
 
-    <!-- Bouton pour afficher les informations -->
+
+
+    <!--Partie Api de mysql que nous n'avons pas réussi à faire marcher-->
+    <br>
+    <br>
+    <!-- Bouton pour afficher les informations sur tous les produits disponibles chez forever 22-->
     <button id="afficherInfos">Afficher les informations</button>
 
-    <!--Liste pour afficher les informations-->
+    <!--Liste contenant les informations-->
     <ul id="menu"></ul>
+
 </body>
+
 </html>

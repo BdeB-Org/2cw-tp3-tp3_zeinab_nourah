@@ -1,4 +1,4 @@
-/* General styles for buttons in the banner */
+/* Style pour la bannière */
 .bouton {
     display: flex;
     justify-content: center;
@@ -13,7 +13,6 @@
     color: #c8c5c1;
 }
 
-/* Specific styles for the logo button to remove the rectangle */
 .bouton.logo {
     border: none;
     width: auto;
@@ -21,7 +20,7 @@
     background-color: transparent;
 }
 
-/* Style for the banner */
+
 .banniere {
     display: flex;
     justify-content: flex-start;
@@ -32,7 +31,9 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* General body styling */
+
+
+/* Style de l'arrière plan et de la page en général */
 body {
     background-color: #b3ffff;
     display: flex;
@@ -42,60 +43,62 @@ body {
     text-align: center;
 }
 
-/* Title container styling */
+
+/* Ajustement des espaces */
 .titre-container {
     width: 100%;
-    margin: 20px 0 10px 0; /* Adjusted margin to reduce space */
+    margin: 20px 0 10px 0;
 }
 
-/* Container for the main content */
+
 .container {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-/* Styling for image boxes */
+/* Styling */
 .boite {
     display: flex;
-    gap: 200px; /* Increased gap for more space between images */
-    margin-top: 10px; /* Reduced margin-top */
+    gap: 200px;
+    margin-top: 10px;
 }
 
-/* Styling for each figure element */
+
 figure {
     text-align: center;
     margin: 0;
 }
 
-/* Styling for images inside figure elements */
 figure img {
-    width: 300px; /* Adjusted width for example */
-    height: 500px; /* Adjusted height for example */
+    width: 300px;
+    height: 500px;
     object-fit: cover;
     border-radius: 15px;
 }
 
-/* Specific styles for item container */
 .item {
     margin: 0 10px;
 }
 
-/* Heading styles */
+
+/* Style pour les titres*/
 h1 {
     font-size: 40px;
     color: #2c3e50;
     font-family: 'Century Gothic';
 }
 
-h2, h3 {
+/*Style pour les sous-titres et le texte*/
+h2,
+h3 {
     font-size: 20px;
     color: #2c3e50;
     font-family: 'Century Gothic';
 }
 
-/* Button styles */
-.boutton_payement {
+/* Style pour bouton de paiement */
+.bouton_paiement {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #28a745;
@@ -106,6 +109,6 @@ h2, h3 {
     margin-top: 10px;
 }
 
-.boutton_payement:hover {
+.boutton_paiement:hover {
     background-color: #218838;
 }

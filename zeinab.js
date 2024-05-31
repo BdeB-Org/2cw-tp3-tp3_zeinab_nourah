@@ -1,3 +1,26 @@
+// méthode pour payer
+function payer() {
+
+  const payementUrl = 'https://buy.stripe.com/test_14kaFs9YNgBWe7S001';
+
+  const params = new URLSearchParams({
+      product_id: '12345',
+      user_id: '67890'
+  }).toString();
+
+
+  window.location.href = `${payementUrl}?${params}`;
+}
+
+
+
+
+
+
+
+
+
+
 // Définition de la fonction createNode
 function createNode(element) {
     return document.createElement(element);
@@ -19,7 +42,8 @@ function afficherInformations() {
         .then((resp) => resp.json())
         .then(function (data) {
             let menu = data.items;
-            menu_ul.innerHTML = ""; // Effacer le contenu précédent de la liste
+            // Effacer le contenu précédent de la liste
+            menu_ul.innerHTML = ""; 
             menu.forEach(function (item) {
                 let li = createNode("li"),
                     span = createNode("span");
